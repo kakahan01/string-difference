@@ -1,0 +1,14 @@
+{
+  "name": "string-difference",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "string",
+    "similarity",
+    "difference"
+  ],
+  "author": "kakahan",
+  "license": "Apache-2.0"
+}
