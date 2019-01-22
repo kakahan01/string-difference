@@ -23,6 +23,20 @@ var stringDifference = function() {
 
     return output;
   }
+
+  this.ratio(difference) {
+    if (typeof(difference) !== Array) throw "RatioError: Difference must be an Array."
+
+    var x = 0;
+    var y = difference.length;
+
+    for (let i = 0; i < array.length; i++) {
+      const e = difference[i];
+      if (!e) x++;
+    }
+
+    return x / y;
+  }
 };
 
 module.exports = stringDifference;
