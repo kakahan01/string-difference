@@ -10,7 +10,7 @@ var difference = new stringDifference().calculateDifference("string1", "string2"
 
 console.log(difference); //Expected Output: [true, true, true, true, true, true, false]
 
-//Getting the ratio
+//Getting the ratio ( difference count / char count )
 
 var ratio = new stringDifference.ratio(difference);
 
